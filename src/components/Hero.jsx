@@ -1,0 +1,25 @@
+import React from 'react';
+const Hero = () => {
+    return (
+        <section id="hero" className="hero">
+            <div className="container hero-content">
+                <img src="/assets/profile.jpg" alt="Anahita Bagheri Kalhor" className="hero-image" />
+
+                <h1 className="hero-title">Hello, I'm Ana </h1>
+                <p className="hero-subtitle">Python and Full Stack Developer with dual Master's degrees.</p>
+                <p>   { /* ul */ } 
+                    Passion for creating robust and scalable web applications, front-end and back-end technologies, data science and machine learning.
+                </p>
+                <p> Canada | Bagheri.anahita65@gmail.com</p>
+                    <p>LinkedIn: <a href="www.linkedin.com/in/anahita-bagheri-developer" target="_blank">www.linkedin.com/in/anahita-bagheri-developer</a></p>
+
+                <video controls className="ai-video">
+                    <source src="/assets/hero-video.mp4" type="video/mp4" />
+                    Your browser does not support the video tag. Please download the video to view it.
+                </video>
+            </div>
+        </section>
+    );
+};
+
+export default Hero;
