@@ -10,6 +10,7 @@ const Contact = () => {
 <form className="contact-form"  name="contact" method="POST"  netlify> 
 
  
+    <input type="hidden" name="form-name" value="contact" />
 
 
 
