@@ -8,7 +8,7 @@ const Contact = () => {
 
 
 <form className="contact-form"  name="contact" method="POST" data-netlify="true"> 
-
+<input type="hidden" name="form-name" value="contact" />
                 <div className="form-group">
                     <label htmlFor="name">Name</label>
                     <input type="text" id="name" name="name" required />
