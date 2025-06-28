@@ -5,7 +5,10 @@ const Contact = () => {
     return (
         <section id="contact" className="contact-section container">
             <h2 className="section-heading text-center">Get in Touch</h2>
-            <form className="contact-form">
+
+
+<form className="contact-form"  name="contact" method="POST" data-netlify="true"> 
+
                 <div className="form-group">
                     <label htmlFor="name">Name</label>
                     <input type="text" id="name" name="name" required />
