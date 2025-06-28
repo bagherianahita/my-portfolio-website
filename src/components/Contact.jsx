@@ -7,8 +7,12 @@ const Contact = () => {
             <h2 className="section-heading text-center">Get in Touch</h2>
 
 
-<form className="contact-form"  name="contact" method="POST" data-netlify="true"> 
-<input type="hidden" name="form-name" value="contact" />
+<form className="contact-form"  name="contact" method="POST"  netlify> 
+
+ 
+
+
+
                 <div className="form-group">
                     <label htmlFor="name">Name</label>
                     <input type="text" id="name" name="name" required />
