@@ -1,9 +1,9 @@
-•	# dependencies
-•	/node_modules
-•	
-•	# build output
-•	/dist
-•	
-•	# other
-•	.env
-•	.DS_Store
+	# dependencies
+	/node_modules
+	
+	# build output
+	/dist
+	
+# other
+	.env
+	.DS_Store
