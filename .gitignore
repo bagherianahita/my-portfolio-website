@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8ca3fc34c5f07d0ee48cb6fa33af336304474af7
 node_modules
 dist
 .env
 .DS_Store
 vite-project/node_modules
 vite-project/dist
+<<<<<<< HEAD
 vite-project/.env
 vite-project/.DS_Store	
+=======
+node_modules
+>>>>>>> 8ca3fc34c5f07d0ee48cb6fa33af336304474af7
