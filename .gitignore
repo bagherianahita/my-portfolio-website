@@ -3,7 +3,7 @@
 =======
 >>>>>>> 8ca3fc34c5f07d0ee48cb6fa33af336304474af7
 node_modules
-dist
+/dist
 .env
 .DS_Store
 vite-project/node_modules
