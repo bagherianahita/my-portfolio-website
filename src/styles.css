@@ -130,13 +130,13 @@ img {
 }
 
 .hero-image {
-  width: 200px;
-  height: 200px;
+  width:300px;
+  height: 300px;
   border-radius: 50%; /* Creates a circle from a square [cite: 857, 946] */
   object-fit: cover;
   margin: 0 auto 30px;
   border: 5px solid var(--white);
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  /* box-shadow: 0 0 15px rgba(0,0,0,0.2); */
 }
 
 .ai-video {
@@ -229,6 +229,7 @@ img {
 
 .project-info {
   padding: 20px;
+  padding-left: 70px;
 }
 
 .project-info h3 {
@@ -240,6 +241,7 @@ img {
   font-size: 0.95em;
   color: var(--dark-gray);
   margin-bottom: 20px;
+  padding-left: 30px;
 }
 
 .project-link {
@@ -282,7 +284,7 @@ img {
 
 .about-me-image {
   flex: 1;
-  min-width: 250px;
+  min-width: 150px;
   border-radius: 8px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }

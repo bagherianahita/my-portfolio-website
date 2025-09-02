@@ -15,18 +15,7 @@ const App = () => {
             <Header />
             <Hero />
             <Resume />
-           
-            
-{AnaProjects.map(pro => (
- <Projects
-    id={pro.id}
-    key={pro.id}
-    title={pro.title}
-    description={pro.description}
-            
-            />
-
-))}
+            <Projects />
             <AboutMe />
             <Contact />
             <Footer />
@@ -35,3 +24,12 @@ const App = () => {
 };
 
 export default App;
+
+// {AnaProjects.map(pro => (
+//  <Projects
+//     id={pro.id}
+//     key={pro.id}
+//     title={pro.title}
+//     description={pro.description}            
+//             />
+// ))}

@@ -1,31 +1,33 @@
 import React from 'react';
-import AnaProjects from '../ProjectsArray';
+//import AnaProjects from '../ProjectsArray';
+import projectData from "../constants/projectData"; 
 
+function Projects() {
+  return (
+      <section id="projects">
 
-
-const Projects = (props) => { 
-    return (
-        <section id="projects" className="projects-section container">
-            <h2 className="section-heading text-center">My Projects</h2>
-            <div className="project-grid">
-                {/* Example Project 1 */}
-                <div className="project-card">
-                    <img src="https://via.placeholder.com/400x200" alt="PostgreSQL Project" />
-                    <div className="project-info">
-                        <p> {props.id}    </p>
-                        <h3>{props.title} </h3>
-                        <p> {props.description}    </p>
-                        <p>
-                            Used pgAdmin for database creation and data import.
-                        </p>
-                        <a href="#" className="project-link" target="_blank">View Project</a>
-                    </div>
-                </div>
- 
-                 
-            </div>
-        </section>
-    );
-};
+      <h3 className="text-xl font-bold mb-4">Projects</h3>
+      <div className="grid gap-4">
+        {projectData.map((project, idx) => (
+          <div key={idx} className="p-4 border rounded-lg shadow-md">
+            <h4 className="text-lg font-semibold">{project.title}</h4>
+            <p className="text-sm">{project.description}</p>
+            <p className="text-xs mt-2">
+              <strong>Tech:</strong> {project.technologies.join(", ")}
+            </p>
+            <a
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 underline text-sm mt-2 block"
+            >
+              View Project
+            </a>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
 
 export default Projects;

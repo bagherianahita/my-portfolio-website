@@ -1,4 +1,5 @@
  import React from 'react';
+import resumeData from "../constants/resumeData"; 
 
 const Resume = () => {
     return (
@@ -7,8 +8,8 @@ const Resume = () => {
             <div className="resume-content">
                 <div className="resume-column">
                     <h3>Summary</h3>
-                    <p>Highly accomplished Full Stack Developer with dual Master's degrees...</p>
-                   
+                    <p>{resumeData.paragraphs}</p>
+
                     <h3>Education</h3>
                     <div className="resume-item">
                         <h4>Master's Degree 1</h4>
