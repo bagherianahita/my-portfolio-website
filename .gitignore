@@ -1,4 +1,7 @@
-	/node_modules
-	/dist
-	.env
-	.DS_Store
+node_modules
+dist
+.env
+.DS_Store
+vite-project/node_modules
+vite-project/dist
+node_modules
