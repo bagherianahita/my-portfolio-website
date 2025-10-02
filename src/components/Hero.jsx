@@ -12,7 +12,7 @@ const Hero = () => {
                 <p>   { /* ul */ } 
                     Passion for creating robust and scalable web applications, front-end and back-end technologies, data science and machine learning.
                 </p>
-                <p> Canada | Bagheri.anahita65@gmail.com</p>
+                <p> Canada | abagherikalh@mun.ca</p>
                     <p>LinkedIn: <a href="https://www.linkedin.com/in/anahita-bagheri-developer-pmp" target="_blank">www.linkedin.com/in/anahita-bagheri-developer</a></p>
 
                 {/* <video controls className="ai-video">

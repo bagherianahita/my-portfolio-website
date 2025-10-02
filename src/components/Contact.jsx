@@ -7,7 +7,7 @@ const Contact = () => {
             <h2 className="section-heading text-center">Get in Touch</h2>
 
 
-<form className="contact-form"  name="contact" method="POST"  netlify> 
+<form className="contact-form"  name="contact" method="POST"      data-netlify="true"  netlify-honeypot="bot-field"  netlify> 
 
  
     <input type="hidden" name="form-name" value="contact" />

@@ -4,9 +4,9 @@ import projectData from "../constants/projectData";
 
 function Projects() {
   return (
-      <section id="projects">
+      <section id="projects"  className="projects-section">
 
-      <h3 className="text-xl font-bold mb-4">Projects</h3>
+      <h2               className="section-heading text-center">  Projects</h2>
       <div className="grid gap-4">
         {projectData.map((project, idx) => (
           <div key={idx} className="p-4 border rounded-lg shadow-md">

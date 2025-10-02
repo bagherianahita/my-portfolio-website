@@ -4,7 +4,8 @@ const projectData = [
     title: "AI-Powered Email Engine",
     description: "Personalizes B2B sales emails at scale using GPT-4, LangChain, and Pinecone.",
     technologies: ["React", "Node.js", "AWS Lambda", "FastAPI"],
-    link: "https://github.com/bagherianahita/AI-Powered-Sales-Email-Personalization-Engine.git"
+    link: " https://github.com/bagherianahita/AI-Powered-Sales-Email-Personalization-Engine"
+  
   },
   {
     title: "LLM-Driven Market Intelligence Tool",
