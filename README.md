@@ -47,13 +47,11 @@ my-portfolio-website/
 
 ---
 
-## Quick start
+## Quick start (employers — no API keys)
 
 ```bash
 npm install
 npm run dev        # http://localhost:5173
-npm run build      # production bundle → dist/
-npm run preview    # preview production build
 ```
 
 ---
