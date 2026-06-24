@@ -54,6 +54,10 @@ npm install
 npm run dev        # http://localhost:5173
 ```
 
+| | URL |
+|---|-----|
+| **Web UI** | http://localhost:5173 |
+
 ---
 
 ## Deployment
