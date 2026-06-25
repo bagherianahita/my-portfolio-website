@@ -1,0 +1,15 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0b1220"/>
+  <g opacity="0.12" stroke="#00C7B7" stroke-width="2">
+    <path d="M0 450 C 200 350, 400 550, 600 450 S 1000 350, 1200 450" fill="none"/>
+    <path d="M0 520 C 200 420, 400 620, 600 520 S 1000 420, 1200 520" fill="none"/>
+  </g>
+  <g transform="translate(120,170)">
+    <rect x="0" y="0" width="160" height="160" rx="18" fill="#071a19" stroke="#00C7B7" stroke-width="3"/>
+    <path d="M35 110 H125" stroke="#d1fff9" stroke-width="8" stroke-linecap="round"/>
+    <path d="M35 80 H95" stroke="#d1fff9" stroke-width="8" stroke-linecap="round"/>
+    <path d="M35 50 H75" stroke="#d1fff9" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <text x="340" y="255" fill="#d1e7ff" font-family="Segoe UI, Arial" font-size="64" font-weight="700">energy-Logix</text>
+  <text x="340" y="315" fill="#8feee3" font-family="Segoe UI, Arial" font-size="28">Blending + disruption simulator prototype</text>
+</svg>

@@ -88,27 +88,27 @@ const Resume = () => {
 
                     <h3>Experience</h3>
                     <div className="resume-item">
-                        <p>Job Title: Developer</p>
-                        <p>Company Name: Spark</p>
-                        <p>2023-Present</p>
+                        <p>Job Title: Data Scientist / AI Engineer</p>
+                        <p>Company Name: Weevva</p>
+                        <p>2024–Present</p>
                         <ul>
-                            <li>Developed and maintained full-stack web applications.</li>
-                            <li>Implemented RESTful APIs and integrated with databases.</li>
-                            <li>Utilized data science techniques for various projects.</li>
+                            <li>Built and deployed data products and ML prototypes to reduce manual analysis and reporting.</li>
+                            <li>Designed data pipelines (SQL/Python) and improved reliability and performance for analytics workflows.</li>
+                            <li>Partnered with stakeholders to define KPIs, data contracts, and demo-ready deliverables.</li>
                         </ul>
                     </div>
 
 
 
 
-                     <div className="resume-item">
-                        <p>Job Title: Developer</p>
-                        <p>Company Name: M2M</p>
-                        <p>2022-2023</p>
+                    <div className="resume-item">
+                        <p>Job Title: Software Developer (Backend / Data)</p>
+                        <p>Company Name: Angler Solutions</p>
+                        <p>2023–2024</p>
                         <ul>
-                            <li>Debugging both back-end and front-end components of the platform.</li>
-                            <li>Designed and developed a responsive website.</li>
-                            <li>Designed and developed dashboards using Power BI.</li>
+                            <li>Worked on backend services and data workflows to support production features.</li>
+                            <li>Improved developer experience via documentation, reproducible local setups, and demo-ready tooling.</li>
+                            <li>Collaborated across frontend/backend to deliver reliable APIs and measurable product outcomes.</li>
                         </ul>
                     </div>
 

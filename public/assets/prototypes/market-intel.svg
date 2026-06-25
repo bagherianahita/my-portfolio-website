@@ -1,0 +1,18 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0b1220"/>
+  <g opacity="0.16" stroke="#f59e0b" stroke-width="2" fill="none">
+    <path d="M120 480 H520"/>
+    <path d="M120 440 H420"/>
+    <path d="M120 400 H320"/>
+  </g>
+  <g transform="translate(120,170)">
+    <rect x="0" y="0" width="160" height="160" rx="18" fill="#241a07" stroke="#f59e0b" stroke-width="3"/>
+    <path d="M45 120 L70 90 L95 105 L120 70" stroke="#fff7ed" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="45" cy="120" r="6" fill="#fff7ed"/>
+    <circle cx="70" cy="90" r="6" fill="#fff7ed"/>
+    <circle cx="95" cy="105" r="6" fill="#fff7ed"/>
+    <circle cx="120" cy="70" r="6" fill="#fff7ed"/>
+  </g>
+  <text x="340" y="255" fill="#d1e7ff" font-family="Segoe UI, Arial" font-size="60" font-weight="700">Market Intelligence</text>
+  <text x="340" y="315" fill="#fcd34d" font-family="Segoe UI, Arial" font-size="28">Offline RAG demo + optional live mode</text>
+</svg>
