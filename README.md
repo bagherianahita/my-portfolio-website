@@ -1,4 +1,4 @@
-# Portfolio Website
+﻿# Portfolio Website
 
 **Live demo:** [mellifluous-crisp-1bdf18.netlify.app](https://mellifluous-crisp-1bdf18.netlify.app/)
 
@@ -47,7 +47,7 @@ my-portfolio-website/
 
 ---
 
-## Quick start (employers — no API keys)
+## Quick start
 
 ```bash
 npm install
