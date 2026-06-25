@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0b1220"/>
+  <text x="80" y="280" fill="#d1e7ff" font-family="Segoe UI,Arial" font-size="44" font-weight="700">St. John's Temperature</text>
+  <text x="80" y="340" fill="#7dd3fc" font-family="Segoe UI,Arial" font-size="26">Feedforward NN 6-hour forecast</text>
+  <path d="M760 380 Q860 260 960 300 T1120 240" fill="none" stroke="#38bdf8" stroke-width="6"/>
+</svg>

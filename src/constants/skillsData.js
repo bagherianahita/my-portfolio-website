@@ -1,14 +1,19 @@
 // src/constants/skillsData.js
 const skillsData = [
-  "React",
-  "Node.js",
   "Python",
-  "R",
+  "TypeScript",
+  "JavaScript",
+  "React",
+  "Vue",
+  "Nuxt",
+  "Node.js",
+  "FastAPI",
   "SQL",
   "AWS",
   "Docker",
   "Machine Learning",
-  "Data Science"
+  "Data Science",
+  "PostgreSQL",
 ];
 
 export default skillsData;

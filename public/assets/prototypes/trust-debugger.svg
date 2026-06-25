@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#1a1030"/></linearGradient></defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <text x="80" y="300" fill="#d1e7ff" font-family="Segoe UI,Arial" font-size="56" font-weight="700">Trust Debugger</text>
+  <text x="80" y="360" fill="#c4b5fd" font-family="Segoe UI,Arial" font-size="26">Scenario audits for trust scoring logic</text>
+  <circle cx="980" cy="315" r="120" fill="none" stroke="#a78bfa" stroke-width="8"/>
+  <path d="M940 315 L970 345 L1030 275" fill="none" stroke="#34d399" stroke-width="12" stroke-linecap="round"/>
+</svg>

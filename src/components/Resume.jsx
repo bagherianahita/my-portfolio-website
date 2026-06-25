@@ -56,28 +56,26 @@ const Resume = () => {
                         <h4>Programming Languages</h4>
                         <ul>
                             <li>Python</li>
-                            <li>JavaScript (Node.js, React.js)</li>
+                            <li>TypeScript & JavaScript (Node.js, React, Vue, Nuxt)</li>
                             <li>HTML5, CSS3</li>
                         </ul>
                     </div>
                     <div className="resume-item">
                         <h4>Frameworks & Libraries</h4>
                         <ul>
-                            <li>React, Express.js</li>
-                            {/* <li>Flask, Django</li> */}
-                            <li>Pandas, NumPy, Scikit-learn, Spacy, FastAPI, Flask, pinecone, OpenAI</li>
+                            <li>React, Vue, Nuxt, Express.js, FastAPI, Flask</li>
+                            <li>Pandas, NumPy, Scikit-learn, Streamlit, OpenAI</li>
                         </ul>
                     </div>
 
 
 
                     <div className="resume-item">
-                        <h4>Databases & Tools</h4>
+                        <h4>Cloud, Databases & Tools</h4>
                         <ul>
-                            <li>PostgreSQL</li>
-                           {/* <li>MongoDB</li> */}
-                            <li>Git, GitHub</li>
-                            <li>Docker</li>
+                            <li>AWS (Cloud Practitioner)</li>
+                            <li>PostgreSQL, SQLite</li>
+                            <li>Git, GitHub, Docker</li>
                         </ul>
                     </div>
 
