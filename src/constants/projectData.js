@@ -67,7 +67,7 @@ const projectData = [
     demo: {
       kind: "web",
       localUrl: "http://localhost:8504",
-      run: "pip install -r requirements.txt && streamlit run app.py --server.port 8504",
+      run: "pip install -r requirements.txt && streamlit run app.py",
       notes: "No API keys needed to run the prototype.",
     },
     image: "/assets/prototypes/sales-email.png",
@@ -80,8 +80,8 @@ const projectData = [
     repoUrl: "https://github.com/bagherianahita/Automated-support-ticket",
     demo: {
       kind: "api",
-      localUrl: "http://localhost:8010/docs",
-      run: "pip install -r requirements.txt && uvicorn app:app --reload --port 8010",
+      localUrl: "http://localhost:8010",
+      run: "pip install -r requirements.txt && uvicorn app:app --port 8010 --host 127.0.0.1",
       notes: "Port is 8010 to avoid conflicts with other local services (e.g., MESO).",
     },
     image: "/assets/prototypes/support-triage.png",
