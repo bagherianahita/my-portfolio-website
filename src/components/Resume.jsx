@@ -88,27 +88,24 @@ const Resume = () => {
 
                     <h3>Experience</h3>
                     <div className="resume-item">
-                        <p>Job Title: Data Scientist / AI Engineer</p>
-                        <p>Company Name: Weevva</p>
-                        <p>2024–Present</p>
-                        <ul>
-                            <li>Built and deployed data products and ML prototypes to reduce manual analysis and reporting.</li>
-                            <li>Designed data pipelines (SQL/Python) and improved reliability and performance for analytics workflows.</li>
-                            <li>Partnered with stakeholders to define KPIs, data contracts, and demo-ready deliverables.</li>
-                        </ul>
-                    </div>
-
-
-
-
-                    <div className="resume-item">
                         <p>Job Title: Software Developer (Backend / Data)</p>
                         <p>Company Name: Angler Solutions</p>
-                        <p>2023–2024</p>
+                        <p>2026–Present</p>
                         <ul>
                             <li>Worked on backend services and data workflows to support production features.</li>
                             <li>Improved developer experience via documentation, reproducible local setups, and demo-ready tooling.</li>
                             <li>Collaborated across frontend/backend to deliver reliable APIs and measurable product outcomes.</li>
+                        </ul>
+                    </div>
+
+                    <div className="resume-item">
+                        <p>Job Title: Data Scientist / AI Engineer</p>
+                        <p>Company Name: Weevva</p>
+                        <p>2025</p>
+                        <ul>
+                            <li>Built and deployed data products and ML prototypes to reduce manual analysis and reporting.</li>
+                            <li>Designed data pipelines (SQL/Python) and improved reliability and performance for analytics workflows.</li>
+                            <li>Partnered with stakeholders to define KPIs, data contracts, and demo-ready deliverables.</li>
                         </ul>
                     </div>
 
