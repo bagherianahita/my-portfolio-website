@@ -3,40 +3,35 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Professional portfolio of Anahita Bagheri Kalhor — Full Stack & AI/Data Engineer.",
+  "description": "Professional Nuxt/Vue portfolio of Anahita Bagheri Kalhor - Full Stack & AI/Data Engineer.",
   "author": "Anahita Bagheri Kalhor",
   "license": "MIT",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc --noEmit && vite build",
-    "preview": "vite preview",
-    "lint": "eslint . --ext js,jsx,ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "typecheck": "tsc --noEmit",
+    "dev": "nuxt dev",
+    "build": "nuxt generate",
+    "build:ssr": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "lint": "eslint . --ext ts,vue --report-unused-disable-directives --max-warnings 0",
+    "typecheck": "nuxt typecheck",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^6.4.8",
-    "@testing-library/react": "^16.0.0",
-    "@testing-library/user-event": "^14.5.2",
-    "@types/node": "^20.14.0",
-    "@types/react": "^18.2.56",
-    "@types/react-dom": "^18.2.19",
-    "@vitejs/plugin-react": "^4.2.1",
-    "@vitest/coverage-v8": "^2.0.5",
+    "@types/node": "^20.19.43",
+    "@vitejs/plugin-vue": "^6.0.7",
+    "@vitest/coverage-v8": "^2.1.9",
+    "@vue/test-utils": "^2.4.11",
     "eslint": "^8.56.0",
-    "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.5",
+    "happy-dom": "^20.10.6",
     "jsdom": "^24.1.1",
-    "typescript": "^5.5.4",
-    "vite": "^6.3.5",
-    "vitest": "^2.0.5"
+    "typescript": "^5.9.3",
+    "vitest": "^2.1.9",
+    "vue-tsc": "^3.3.5"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "recharts": "^2.12.7"
+    "nuxt": "^4.4.5",
+    "vue": "^3.5.39"
   }
 }

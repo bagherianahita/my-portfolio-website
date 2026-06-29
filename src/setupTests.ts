@@ -1,9 +1,5 @@
-import '@testing-library/jest-dom/vitest';
 import { afterEach, vi } from 'vitest';
-import { cleanup } from '@testing-library/react';
 
-// Recharts' ResponsiveContainer needs real layout dimensions, which jsdom does
-// not provide. Stub them so charts render with a deterministic size in tests.
 beforeAll(() => {
   class ResizeObserverStub {
     observe() {}
@@ -36,5 +32,5 @@ beforeAll(() => {
 });
 
 afterEach(() => {
-  cleanup();
+  document.body.innerHTML = '';
 });
