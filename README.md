@@ -2,7 +2,7 @@
 
 **Live site:** [mellifluous-crisp-1bdf18.netlify.app](https://mellifluous-crisp-1bdf18.netlify.app/)
 
-A modern, responsive personal portfolio showcasing professional experience, projects, skills, and contact information.
+A modern, responsive personal portfolio showcasing professional experience, projects, skills, and contact info.
 
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-6-646CFF?style=flat-square&logo=vite&logoColor=white)
